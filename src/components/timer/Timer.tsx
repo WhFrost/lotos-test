@@ -12,6 +12,8 @@ function Timer({startDate, endDate}: TimerProps) {
 	const tenderStartDate = dayjs(startDate);
 	const tenderEndDate = dayjs(endDate);
 	const currentDay = dayjs();
+	console.log(dayjs(tenderEndDate).format('hh:mm'));
+	console.log(dayjs(tenderEndDate).format('MM:DD'));
 
 	const elapsedTimeFromStart = currentDay.diff(tenderStartDate);
 	const tick = TIMER * 60 * 1000;
