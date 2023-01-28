@@ -1,0 +1,12 @@
+.list__item {
+	padding: 5px;
+}
+
+.list__link {
+	font-size: 20px;
+	color: black;
+	&:hover,
+	&:focus {
+		color: darkslateblue;
+	}
+}

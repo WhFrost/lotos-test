@@ -1,0 +1,20 @@
+.header {
+	background-color: lightgray;
+	margin-bottom: 40px;
+}
+
+.header__wrapper {
+	padding: 10px 20px;
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	justify-items: center;
+	row-gap: 10px;
+}
+
+.header__main {
+	font-size: 27px;
+}
+
+.header__content {
+	font-size: 18px;
+}

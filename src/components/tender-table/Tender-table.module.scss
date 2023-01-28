@@ -1,0 +1,24 @@
+.tender {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.tender__table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table__row {
+	&:nth-child(odd):not(:last-child) {
+		background-color: lightgrey;
+	}
+}
+
+.table__cell {
+	&:not(:first-child) {
+		text-align: center;
+	}
+	padding: 10px;
+}
